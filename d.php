@@ -93,7 +93,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         sleep(3);
         }
         sleep(3);
-        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-CK4J283"}');
+        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-74MMVNT"}');
         $messagevoc01 = fetch_value($voc01,'"message":"','"');
         echo "\n".color("white"," Message: ".$messagevoc01);
         sleep(1);
