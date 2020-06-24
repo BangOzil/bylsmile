@@ -4,7 +4,7 @@ include "function.php";
 ulang:
 // function change(){
 echo color("green","[]      BISMILLAHIRRAHMANIRRAHIM      []\n");
-echo color("yellow","[]          BY : DonzGroup              []\n");
+echo color("yellow","[]          BY : BoyolaliPoenya             []\n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
 echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         $nama = nama();
