@@ -4,7 +4,7 @@ include "function.php";
 ulang:
 // function change(){
 echo color("green","[]      BISMILLAHIRRAHMANIRRAHIM      []\n");
-echo color("yellow","[]          Repack BY :  hamza             []\n");
+echo color("yellow","[]          Repack BY :  hamza           []\n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
 echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         $nama = nama();
@@ -55,7 +55,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         echo color("white",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WENDYS"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-74MMVNT"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","Message: ".$message);
@@ -93,7 +93,7 @@ echo color("yellow","[] Format Penulisan Nomor 62xxxxxxxx  []\n");
         sleep(3);
         }
         sleep(3);
-        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"G-74MMVNT"}');
+        $voc01 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WENDYS"}');
         $messagevoc01 = fetch_value($voc01,'"message":"','"');
         echo "\n".color("white"," Message: ".$messagevoc01);
         sleep(1);
